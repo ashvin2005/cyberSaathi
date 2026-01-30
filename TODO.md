@@ -3,6 +3,6 @@
 - [x] Core Utilities
 - [x] Custom Hooks
 - [x] Server Actions
-- [ ] Assets & UI
-- [-] Components
+- [x] Assets - [ ] Assets & UI UI
+- [x] Components
 - [x] Testing
