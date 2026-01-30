@@ -2,7 +2,7 @@
 - [x] Initial Configuration
 - [x] Core Utilities
 - [x] Custom Hooks
-- [ ] Server Actions
+- [x] Server Actions
 - [ ] Assets & UI
 - [ ] Components
 - [ ] Testing
