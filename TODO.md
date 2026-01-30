@@ -1,5 +1,5 @@
 # Project Roadmap
-- [ ] Initial Configuration
+- [x] Initial Configuration
 - [ ] Core Utilities
 - [ ] Custom Hooks
 - [ ] Server Actions
