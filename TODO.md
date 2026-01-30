@@ -1,7 +1,7 @@
 # Project Roadmap
 - [x] Initial Configuration
 - [x] Core Utilities
-- [-] Custom Hooks
+- [x] Custom Hooks
 - [ ] Server Actions
 - [ ] Assets & UI
 - [ ] Components
