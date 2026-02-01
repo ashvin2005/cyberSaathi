@@ -2,12 +2,16 @@ import { useState, useEffect, useCallback } from "react";
 import { Language } from "@/utils/translations";
 
 const languageToLocale: Record<Language, string> = {
-    English: "en-US",
-    Spanish: "es-ES",
-    French: "fr-FR",
-    German: "de-DE",
+    English: "en-IN",
     Hindi: "hi-IN",
     Marathi: "mr-IN",
+    Tamil: "ta-IN",
+    Telugu: "te-IN",
+    Bengali: "bn-IN",
+    Gujarati: "gu-IN",
+    Kannada: "kn-IN",
+    Malayalam: "ml-IN",
+    Punjabi: "pa-IN",
 };
 
 export function useTextToSpeech(language: Language) {

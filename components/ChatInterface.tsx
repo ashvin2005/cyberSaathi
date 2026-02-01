@@ -125,10 +125,15 @@ export default function ChatInterface() {
                     className="text-xs border rounded px-2 py-1 bg-white dark:bg-zinc-800 border-zinc-300 dark:border-zinc-700 focus:outline-none focus:ring-1 focus:ring-blue-500 text-zinc-900 dark:text-zinc-100"
                 >
                     <option value="English">English</option>
-                    <option value="Spanish">Spanish</option>
-                    <option value="French">French</option>
-                    <option value="German">German</option>
-                    <option value="Hindi">Hindi</option>
+                    <option value="Hindi">हिंदी (Hindi)</option>
+                    <option value="Marathi">मराठी (Marathi)</option>
+                    <option value="Tamil">தமிழ் (Tamil)</option>
+                    <option value="Telugu">తెలుగు (Telugu)</option>
+                    <option value="Bengali">বাংলা (Bengali)</option>
+                    <option value="Gujarati">ગુજરાતી (Gujarati)</option>
+                    <option value="Kannada">ಕನ್ನಡ (Kannada)</option>
+                    <option value="Malayalam">മലയാളം (Malayalam)</option>
+                    <option value="Punjabi">ਪੰਜਾਬੀ (Punjabi)</option>
                 </select>
             </div>
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
@@ -166,8 +171,8 @@ export default function ChatInterface() {
                                     <button
                                         onClick={() => speak(message.content, message.id)}
                                         className={`p-1.5 rounded-full transition-colors ${speakingId === message.id
-                                                ? "bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400"
-                                                : "text-zinc-500 hover:text-zinc-700 hover:bg-zinc-300 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:bg-zinc-700"
+                                            ? "bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400"
+                                            : "text-zinc-500 hover:text-zinc-700 hover:bg-zinc-300 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:bg-zinc-700"
                                             }`}
                                         title={speakingId === message.id ? t.stopReading : t.readAloud}
                                     >
